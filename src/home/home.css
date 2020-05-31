@@ -1,0 +1,82 @@
+/* Home head */
+
+main #home-head {
+	min-height: 313px;
+	background-color: #e6e6e6;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main #home-head h1,
+main #home-head p {
+	max-width: 512px;
+	text-align: center;
+}
+
+/* Home grid */
+
+main #home-grid #grid-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main #home-grid #grid-row .project-wrapper {
+	width: 25%;
+	height: 300px;
+	position: relative;
+}
+
+main #home-grid #grid-row .project-wrapper div {
+	width: 100%;
+	height: 300px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+main #home-grid .box-dark,
+main #home-grid #grid-row .project-wrapper .project .opacity-dark {
+	background-color: #838383;
+}
+
+main #home-grid .box-light.project-hover,
+main #home-grid #grid-row .project-wrapper .project .opacity-light {
+	/* background-color: #dddddd; */
+	background-color: #838383;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-img,
+main #home-grid #grid-row .project-wrapper .project .project-opacity {
+	width: 100%;
+	height: 100%;
+
+	object-fit: none;
+	object-position: center;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-opacity {
+	opacity: 0.1;
+}
+
+main #home-grid #grid-row .project-wrapper .project .project-img {
+	width: 100%;
+	height: 100%;
+}
+
+main #home-grid #grid-row .project-wrapper .project-hover {
+	background-color: #10c9c3;
+	z-index: 1;
+	display: none;
+
+	justify-content: center;
+	align-items: center;
+}
+
+main #home-grid #grid-row .project-wrapper .project-hover .project-hover-img {
+	width: 48px;
+	height: 30px;
+}
