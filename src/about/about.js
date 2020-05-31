@@ -1,22 +1,22 @@
 const achievments = [
 	{
 		title: 'projects completed',
-		img: '../../assets/briefcase.svg',
+		img: '../assets/briefcase.svg',
 		count: 548,
 	},
 	{
 		title: 'WORKING HOURS',
-		img: '../../assets/history.svg',
+		img: '../assets/history.svg',
 		count: 1465,
 	},
 	{
 		title: 'POSITIVE FEEDBACKS',
-		img: '../../assets/star.svg',
+		img: '../assets/star.svg',
 		count: 612,
 	},
 	{
 		title: 'HAPPY CLIENTS',
-		img: '../../assets/heart.svg',
+		img: '../assets/heart.svg',
 		count: 735,
 	},
 ];

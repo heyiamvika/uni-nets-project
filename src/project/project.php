@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Основи WEB-програмування - Project</title>
+	<title>Project</title>
 	<link rel="stylesheet" href="../index.css" />
 	<link rel="stylesheet" href="./project.css" />
 	<link rel="stylesheet" href="./project-responsive.css" />
@@ -12,7 +12,7 @@
 
 <body>
 	<header>
-		<img id="home-logo" src="../../assets/code.svg" />
+		<img id="home-logo" src="../assets/code.svg" />
 		<nav>
 			<a href="../index.php" class="nav-text">Home</a>
 			<a href="../about/about.html" class="nav-text">About</a>
@@ -27,7 +27,7 @@
 
 					<?php
 					// Get the content of the JSON file
-					$json = file_get_contents('../../projects.json');
+					$json = file_get_contents('../projects.json');
 					// decode the JSON into an associative array
 					$decoded = json_decode($json, true);
 
@@ -71,13 +71,13 @@
 
 		<section id="project-navigation">
 			<a id="link-previous">
-				<img src="../../assets/left-arrow.svg" />
+				<img src="../assets/left-arrow.svg" />
 				<span class="navigation-text">previous project</span>
 			</a>
-			<img id="project-navigation-center-img" src="../../assets/code.svg" />
+			<img id="project-navigation-center-img" src="../assets/code.svg" />
 			<a id="link-next">
 				<span class="navigation-text">next project</span>
-				<img src="../../assets/right-arrow.svg" />
+				<img src="../assets/right-arrow.svg" />
 			</a>
 		</section>
 	</main>

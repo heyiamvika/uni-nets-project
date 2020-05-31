@@ -8,7 +8,7 @@ include "./contact-validate.php";
 
 <head>
 	<meta charset="utf-8" />
-	<title>Основи WEB-програмування - Contact</title>
+	<title>Contact</title>
 	<link rel="stylesheet" href="../index.css" />
 	<link rel="stylesheet" href="./contact.css" />
 	<link rel="stylesheet" href="./contact-responsive.css" />
@@ -16,7 +16,7 @@ include "./contact-validate.php";
 
 <body>
 	<header>
-		<img id="home-logo" src="../../assets/code.svg" />
+		<img id="home-logo" src="../assets/code.svg" />
 		<nav>
 			<a href="../index.php" class="nav-text">Home</a>
 			<a href="../about/about.html" class="nav-text">About</a>
@@ -26,7 +26,7 @@ include "./contact-validate.php";
 
 	<main>
 		<?php
-		include "../../env.php";
+		include "../env.php";
 		?>
 		<div id="contact-wrapper">
 			<section id="contact-info">

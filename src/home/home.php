@@ -1,7 +1,7 @@
 <?php
 $elementsPerRow = 4;
 // Get the content of the JSON file
-$json = file_get_contents('../projects.json');
+$json = file_get_contents('./projects.json');
 // decode the JSON into an associative array
 $decoded = json_decode($json, true);
 $projects = $decoded['projects'];

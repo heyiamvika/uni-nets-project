@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Основи WEB-програмування - Home</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="./index.css" />
 	<link rel="stylesheet" href="home/home.css" />
 	<link rel="stylesheet" href="home/home-responsive.css" />

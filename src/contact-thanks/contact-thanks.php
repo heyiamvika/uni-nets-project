@@ -11,7 +11,7 @@ unset($_SESSION['POST']);
 
 <head>
 	<meta charset="utf-8" />
-	<title>Основи WEB-програмування - Thank you!</title>
+	<title>Thank you!</title>
 	<link rel="stylesheet" href="../index.css" />
 	<link rel="stylesheet" href="./contact-thanks.css" />
 	<link rel="stylesheet" href="./contact-thanks-responsive.css" />
@@ -19,7 +19,7 @@ unset($_SESSION['POST']);
 
 <body>
 	<header>
-		<img id="home-logo" src="../../assets/code.svg" />
+		<img id="home-logo" src="../assets/code.svg" />
 		<nav>
 			<a href="../index.php" class="nav-text">Home</a>
 			<a href="../about/about.html" class="nav-text">About</a>
@@ -52,7 +52,7 @@ unset($_SESSION['POST']);
 				</div>"
 			?>
 			<button class="green-button" id="back-home-button">
-				<a href="../../src/index.php">Back home</a>
+				<a href="../index.php">Back home</a>
 			</button>
 		</div>
 	</main>
